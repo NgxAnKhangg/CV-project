@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(248, 192, 211);
+    margin: 0;
+}
+.login-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+    height: 58vh;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 20px;
+    width: 100%;
+    font-weight: 700;
+}
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 92% ;
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color:deeppink;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 800;
+    margin-top: 5px ;
+}
+.login-container input[type="submit"]:hover {
+    background-color:deeppink;
+    opacity: 0.5;
+}
+.back {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid deeppink;
+    background-color:white;
+    color: deeppink;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: 800;
+    margin-top: 10px ;}
+.back:hover {
+    opacity: 0.5;
+}
+.signup {
+    border: 2px solid deeppink;
+    border-radius: 15px;
+    background-color:deeppink;
+    color: white;
+}
+.signup:hover {
+    opacity: 0.5;
+}
