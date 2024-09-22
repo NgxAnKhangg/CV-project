@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tạo CV cho bản thân</h1>
+        <div class="section personal">
+            <h2>1. Thông tin cá nhân của bạn</h2>
+            <form action="">
+                <label for="">Họ và tên</label>
+                <input type="text" placeholder="Nhập họ và tên của bạn">
+                
+                <label for="">Số điện thoại</label>
+                <input type="number" placeholder="Nhập số điện thoại của bạn">
+                
+                <label for="">Email</label>
+                <input type="email" placeholder="Nhập email của bạn">
+                
+                <label for="">Tuổi</label>
+                <input type="number" placeholder="Nhập số tuổi của bạn" min="0" max="100">
+                
+                <label for="">Giới tính</label>
+                <input type="radio" name="gender">Nam
+                <input type="radio" name="gender">Nữ
+                <input type="radio" name="gender">Khác <br><br>
+
+                <label for="">Chiều cao</label>
+                <select name="height">
+                    <option value="">160cm trở xuống</option>
+                    <option value="">160cm-170cm</option>
+                    <option value="">170cm-180cm</option>
+                    <option value="">180cm trở lên</option>
+                </select>
+
+                <label for="">Cân nặng</label>
+                <input type="number" min="0" max="200">
+            </form>
+        </div>
+
+        <hr>
+
+        <div class="section">
+            <h2>2. Tìm hiểu kỹ hơn về bạn</h2>
+            <form action="">
+                <label for="">Bạn đã từng có mối quan hệ chưa?</label>
+                <input type="radio" name="mqh">Rồi
+                <input type="radio" name="mqh">Chưa <br><br>
+
+                <label for="">Nếu rồi bạn đã có bao nhiêu mối tình?</label>
+                <input type="number" min="1" max="100">
+                
+                <label for="">Bạn có bị cận không?</label>
+                <input type="radio" name="glasses"> Có
+                <input type="radio" name="glasses"> Không <br><br>
+
+                <label for="">Tính cách của bạn?</label>
+                <input type="checkbox" name="character">Hài hước
+                <input type="checkbox" name="character">Lowkey
+                <input type="checkbox" name="character">Lãng mạn
+                <input type="checkbox" name="character">Năng lượng
+                <input type="checkbox" name="character">Dịu dàng
+                <input type="checkbox" name="character">Thân thiện
+                <input type="checkbox" name="character">Thực tế
+                <input type="checkbox" name="character">Mạnh mẽ
+                <input type="checkbox" name="character">Gia trưởng
+                <input type="checkbox" name="character">Tinh tế <br><br>
+
+                <label for="">Style ăn mặc của bạn?</label>
+                <input type="checkbox" name="Style">Trưởng Thành
+                <input type="checkbox" name="Style">Hàn Quốc
+                <input type="checkbox" name="Style">Basic
+                <input type="checkbox" name="Style">Vintage/Retro
+                <input type="checkbox" name="Style">Clean
+                <input type="checkbox" name="Style">Sporty
+                <input type="checkbox" name="Style">Streetwear
+                <input type="checkbox" name="Style">Học đường/Old school
+                <input type="checkbox" name="Style">Phố
+                <input type="checkbox" name="Style">Polo
+                <input type="checkbox" name="Style">Hàng hiệu <br><br>
+
+                <label for="">Thái độ của bạn?</label>
+                <input type="checkbox" name="attitude">Chủ động
+                <input type="checkbox" name="attitude">Thẳng thắn
+                <input type="checkbox" name="attitude">Cứng rắn
+                <input type="checkbox" name="attitude">Khiêm tốn
+                <input type="checkbox" name="attitude">Tự tin
+                <input type="checkbox" name="attitude">Kiên định
+                <input type="checkbox" name="attitude">Điềm tĩnh
+                <input type="checkbox" name="attitude">Tích cực
+                <input type="checkbox" name="attitude">Cởi mở
+                <input type="checkbox" name="attitude">Nhẹ nhàng
+                <input type="checkbox" name="attitude">Nhiệt tình
+                <input type="checkbox" name="attitude">Kỷ luật <br><br>
+
+                <label for="">Điểm mạnh của bạn?</label>
+                <input type="checkbox" name="strenght">Tử tế
+                <input type="checkbox" name="strenght">Nuông chiều
+                <input type="checkbox" name="strenght">Tri thức
+                <input type="checkbox" name="strenght">Thông minh
+                <input type="checkbox" name="strenght">Quyết đoán
+                <input type="checkbox" name="strenght">Kinh tế
+                <input type="checkbox" name="strenght">Kiên nhẫn
+                <input type="checkbox" name="strenght">Chăm chỉ
+                <input type="checkbox" name="strenght">Lãnh đạo
+                <input type="checkbox" name="strenght">Lắng nghe
+                <input type="checkbox" name="strenght">Trải đời
+                <input type="checkbox" name="strenght">Cầu tiến <br><br>
+
+                <label for="">Những điều bạn muốn nhắn nhủ với nửa kia?</label>
+                <textarea name="" id="" cols="107" rows="12"></textarea>
+            </form>
+        </div>
+
+        <div class="button-container">
+            <button class="submit-btn">Hoàn Thành</button>
+            <a class="back" style="text-decoration: none;" href="">Trở lại trang chủ</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -47,6 +47,8 @@
 .info3 {
     padding: 20px;
     color: deeppink;
+    font-size: 30px;
+    list-style: none;
 }
 a {
     text-decoration: none;
@@ -79,3 +81,8 @@ button {
 .gout {
     list-style:;
 }
+span:hover{
+    opacity: 1 ;
+}
+    
+
